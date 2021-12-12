@@ -1,7 +1,7 @@
 const chai = require('chai'); //more advanced assert module
 const expect = chai.expect; //assign the expect flavor of chai to our constants. Can also be should or assert
 
-chai.use(require('chai-string')); //has methods like startsWidth
+chai.use(require('chai-string')); //has methods like startsWith
 
 const printLL = require('./index');
 
