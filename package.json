@@ -1,0 +1,27 @@
+{
+  "name": "printlogline",
+  "version": "1.0.0",
+  "description": "module to print a configurable log line to terminal (prefix)YY-MM-DD hh:mm:ss:msc (msg). nbr of digits is fixed for all data time numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strat-x/printlogline.git"
+  },
+  "keywords": [
+    "terminal",
+    "debug"
+  ],
+  "author": "Triathlon71",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/strat-x/printlogline/issues"
+  },
+  "homepage": "https://github.com/strat-x/printlogline#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-string": "^1.5.0"
+  }
+}
