@@ -1,6 +1,6 @@
 {
   "name": "printlogline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "module to print a configurable log line to terminal (prefix)YY-MM-DD hh:mm:ss:msc (msg). nbr of digits is fixed for all data time numbers.",
   "main": "index.js",
   "scripts": {

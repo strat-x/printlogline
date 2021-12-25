@@ -44,6 +44,7 @@ function printLL(_prefix,_msg){
     let minuten = formattedNumber(currentDT.getMinutes()); 
     let sekonden = formattedNumber(currentDT.getSeconds());
     let milisek = formattedNumber(currentDT.getMilliseconds(),3);
+    console.log(_prefix + maand + "-" + dag + " " + uur +":"+minuten+":"+sekonden+":"+milisek+" "+_msg);
     return _prefix + maand + "-" + dag + " " + uur +":"+minuten+":"+sekonden+":"+milisek+" "+_msg;
 }
 
